@@ -23,12 +23,12 @@ There are multiple reasons to use VCPKG over doing it yourself:
 The installation of VCPKG is quite simple, you can follow the instructions on their [get started page](https://vcpkg.io/en/getting-started.html), but I will sum up the commands I used. I recommend reading this page, since it states certain commands that are not present in the [get started page](https://vcpkg.io/en/getting-started.html).
 
 Installing VCPKG consists of multiple steps and is not as easy as just running an executable.
-In the [Basic Commands](#basic-commands) section, we will go over certain commands that are not mentioned in the get started page but are very usefull.
+In the [Basic Commands](#basic-commands) and [Extra useful commands](#extra-useful-commands) section, we will go over some commands that are not mentioned in the [get started page](https://vcpkg.io/en/getting-started.html) but are very usefull. These commands are nearly mandatory to know to use VCPKG properly.
 
 ### Prepare a folder
-We want to start of by cloning the [VCPKG repo](https://github.com/microsoft/vcpkg) into a local directory. But we need a local directory first where everything will be located. I would suggest you put this in your `C:\` drive. Also don't put it into a deep path like `C:\example\trash\directory\path\etc`, since it might cause issues (Thank me later).
-I personally went with `C:\vcpkg` and I will use this as example going onwards in this guide.
+We want to start of by cloning the [VCPKG repo](https://github.com/microsoft/vcpkg) into a local directory. We will need a local directory first, where all the files of VCPKG will be located. I suggest you put this somewhere on your `C:\` drive. Do not put it into a deep path like `C:\example\trash\directory\path\etc`, since it might cause issues Later on (Thank me later).
 
+I personally created an empty folder on my `C:\` drive, called vcpkg. Meaning everything realted to VCPKG is inside of `C:\vcpkg`. I will be using this directory path as an example going onwards in this guide.
 
 ### Cloning the repo
 So now we clone the [VCPKG repo](https://github.com/microsoft/vcpkg) into that directory we just made.
@@ -92,6 +92,6 @@ This is done using the `--triplet=` flag. It will look like this `vcpkg.exe inst
 
 ### Installing bindings
 If we are in need of a binding between packages, these bindings are indiccated using the `[]`.
-It is just as easy as to run `vcpkg.exe install *package*[*binding*]`
+It is just as easy as to run `vcpkg.exe install *package*[*binding*]`. I highly suggest you use the `--recursive` flag when running this command.
 
 #### Example: run `vcpkg.exe install SDL2[vulkan]`, which will install the binding for Vulkan functionality with SDL
