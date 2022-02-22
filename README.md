@@ -35,9 +35,9 @@ So now we clone the [VCPKG repo](https://github.com/microsoft/vcpkg) into that d
 You can clone the repo in multiple ways:
 - Use Git GUI/BASH/CMD and use this command `git clone https://github.com/Microsoft/vcpkg.git` in the directory `C:\vcpkg`.
     #### OR
-- Download the latest release of [VCPKG](https://github.com/microsoft/vcpkg/releases) and extract it in your folder `C:\vcpkg`.
+- Download the latest release of [VCPKG](https://github.com/microsoft/vcpkg/releases) and extract it in your directory `C:\vcpkg`.
     #### OR
-- Feel free to use another way you are already accustomed to.
+- Feel free to use a different method you are accustomed to.
 
 ### Proceeding with the install
 Now that you have the repo cloned into your VCPKG directory. We just need to run `.\vcpkg\bootstrap-vcpkg.bat` to install VCPKG. 
