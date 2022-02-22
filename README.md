@@ -52,7 +52,7 @@ In this part I will use `SDL2`as an example to install.
 ### Finding a package
 For finding a package we can run: `vcpkg.exe search *package*`
 
-#### Example: run `vcpkg.exe search SDL2`, we see all related packages that are available.
+   #### Example: run `vcpkg.exe search SDL2`, we see all related packages that are available.
 
    #### OR
    
@@ -61,8 +61,8 @@ You can also look for packages on the [Browse Packages](https://vcpkg.io/en/pack
 ### Install a package
 If we want to install a package we use: `vcpkg.exe install *package*`
 
-#### Example: run `vcpkg.exe install SDL2`, this will install SDL2
-####          run `vcpkg.exe install SDL2-image`, this will install SDL2-image
+   #### Example: run `vcpkg.exe install SDL2`, this will install SDL2
+   ####          run `vcpkg.exe install SDL2-image`, this will install SDL2-image
          
 In [Extra useful commands](#extra-useful-commands) we will see more advanced commands to install different platforms and certain extensions on packages.
 
@@ -77,7 +77,7 @@ run `vcpkg.exe upgrade` to update the outdated packages
 To make sure you can see and access these packages in a project.
 run `vcpkg integrate install`
 
-#### Beware!, for Cmake this is a different process.
+  #### Beware!, for Cmake this is a different process.
 
 ---
 ## Extra useful commands
