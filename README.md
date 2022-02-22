@@ -69,7 +69,7 @@ In [Extra useful commands](#extra-useful-commands) we will see more advanced com
 ### List all installed packages
 run `vcpkg.exe list`
 
-### update outdated packages
+### Update outdated packages
 run `vcpkg.exe update` to see all outdated packages
 run `vcpkg.exe upgrade` to update the outdated packages
 
