@@ -20,7 +20,9 @@ There are multiple reasons to use VCPKG over doing it yourself:
 
 ---
 ## Installing VCPKG
-The installation of VCPKG is quite simple, you can follow the instructions on their [get started page](https://vcpkg.io/en/getting-started.html). But I'll sum up the commands I used. Installing VCPKG consists out of multiple steps and is not as easy as just running a executable.
+The installation of VCPKG is quite simple, you can follow the instructions on their [get started page](https://vcpkg.io/en/getting-started.html), but I will sum up the commands I used. I recommend reading this page, since it states certain commands that are not present in the [get started page](https://vcpkg.io/en/getting-started.html).
+
+Installing VCPKG consists of multiple steps and is not as easy as just running an executable.
 In the [Basic Commands](#basic-commands) section, we will go over certain commands that are not mentioned in the get started page but are very usefull.
 
 ### Prepare a folder
