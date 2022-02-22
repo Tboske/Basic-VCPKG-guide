@@ -42,7 +42,7 @@ You can clone the repo in multiple ways:
 ### Proceeding with the install
 Now that you have the repo cloned into your VCPKG directory. We just need to run `.\vcpkg\bootstrap-vcpkg.bat` to install VCPKG. 
 
-Once done this is done, VCPKG is ready to be used to search, install and manage packages for C++.
+Once this is done, VCPKG is ready to be used to search, install, update and manage packages for C++ .
 
 ---
 ## Basic Commands
