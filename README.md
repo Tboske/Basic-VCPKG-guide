@@ -92,6 +92,6 @@ This is done using the `--triplet=` flag. It will look like this `vcpkg.exe inst
 
 ### Installing bindings
 If we are in need of a binding between packages, these bindings are indiccated using the `[]`.
-It is just as easy as to run `vcpkg.exe install *package*[*binding*]`. I highly suggest you use the `--recursive` flag when running this command.
+It is just as easy as to run `vcpkg.exe install *package*[*binding*]`. I highly suggest you use the `--recurse` flag when running this command.
 
 #### Example: run `vcpkg.exe install SDL2[vulkan]`, which will install the binding for Vulkan functionality with SDL
