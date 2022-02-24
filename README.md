@@ -30,7 +30,7 @@ We want to start of by cloning the [VCPKG repo](https://github.com/microsoft/vcp
 
 #### Do not put it into a deep path like `C:\example\trash\directory\path\etc`, since it might cause issues later on (Thank me later).
 
-I personally created an empty folder on my `C:\` drive, called vcpkg. Meaning everything realted to VCPKG is inside of `C:\vcpkg`. I will be using this directory path as an example going onwards in this guide.
+I personally created an empty directory on my `C:\` drive, called vcpkg. Meaning everything realted to VCPKG is inside of `C:\vcpkg`. I will be using this directory path as an example going onwards in this guide.
 
 ### Cloning the repo
 So now we clone the [VCPKG repo](https://github.com/microsoft/vcpkg) into that directory we just made.
