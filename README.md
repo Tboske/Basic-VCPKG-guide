@@ -26,7 +26,9 @@ Installing VCPKG consists of multiple steps and is not as easy as just running a
 In the [Basic Commands](#basic-commands) and [Extra useful commands](#extra-useful-commands) section, we will go over some commands that are not mentioned in the [get started page](https://vcpkg.io/en/getting-started.html) but are very usefull. These commands are nearly mandatory to know to use VCPKG properly.
 
 ### Prepare a folder
-We want to start of by cloning the [VCPKG repo](https://github.com/microsoft/vcpkg) into a local directory. We will need a local directory first, where all the files of VCPKG will be located. I suggest you put this somewhere on your `C:\` drive. Do not put it into a deep path like `C:\example\trash\directory\path\etc`, since it might cause issues Later on (Thank me later).
+We want to start of by cloning the [VCPKG repo](https://github.com/microsoft/vcpkg) into a local directory. We will need a local directory first, where all the files of VCPKG will be located. I suggest you put this somewhere on your `C:\` drive. 
+
+#### Do not put it into a deep path like `C:\example\trash\directory\path\etc`, since it might cause issues later on (Thank me later).
 
 I personally created an empty folder on my `C:\` drive, called vcpkg. Meaning everything realted to VCPKG is inside of `C:\vcpkg`. I will be using this directory path as an example going onwards in this guide.
 
