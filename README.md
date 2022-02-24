@@ -87,8 +87,8 @@ There are multiple different platforms: arm-uwp, arm64-windows, x64-linux, x64-o
 x86-windows is the default for windows, so we will have to specify when we want to install x64 version.
 You can do this 2 ways, using `--triplet=` flag or the `:`.
 
-#### Example `--triplet`: `vcpkg.exe install SDL2 --triplet=x64-windows`
-#### Example `:`: `vcpkg.exe install SDL2:x64-windows`
+#### Example `--triplet`->  `vcpkg.exe install SDL2 --triplet=x64-windows`
+#### Example `:`        ->  `vcpkg.exe install SDL2:x64-windows`
 
 ### Installing bindings
 If we are in need of a binding between packages, these bindings are indicated using the `[]`.
