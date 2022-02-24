@@ -35,9 +35,9 @@ I personally created an empty directory on my `C:\` drive, called vcpkg. Meaning
 ### Cloning the repo
 So now we clone the [VCPKG repo](https://github.com/microsoft/vcpkg) into that directory we just made.
 You can clone the repo in multiple ways:
-- Use Git GUI/BASH/CMD and use this command `git clone https://github.com/Microsoft/vcpkg.git` in the directory `C:\vcpkg`.
+- Use Git GUI/BASH/CMD and use this command `git clone https://github.com/Microsoft/vcpkg.git` in the `C:\vcpkg` directory.
     #### OR
-- Download the latest release of [VCPKG](https://github.com/microsoft/vcpkg/releases) and extract it in your directory `C:\vcpkg`.
+- Download the latest release of [VCPKG](https://github.com/microsoft/vcpkg/releases) and extract it in your `C:\vcpkg` directory.
     #### OR
 - Feel free to use a different method you are accustomed to.
 
