@@ -82,16 +82,16 @@ run `vcpkg integrate install`
 ---
 ## Extra useful commands
 ### Installing different platforms (x64-windows/linux/...)
-We also want to be able to use x64 packages.
+We also want to be able to use x64 packages or linux packages.
 There are multiple different platforms: arm-uwp, arm64-windows, x64-linux, x64-osx, x64-uwp, x64-windows, x64-windows-static, x86-windows.
 x86-windows is the default for windows, so we will have to specify when we want to install x64 version.
-This is done using the `--triplet=` flag. It will look like this `vcpkg.exe install *package* --triplet=*platform*`
+You can do this 2 ways, using `--triplet=` flag or the `:`.
 
-#### Example: run `vcpkg.exe install SDL2 --triplet=x64-windows`, this will install the x64 version of SDL2
-
+#### Example `--triplet`: `vcpkg.exe install SDL2 --triplet=x64-windows`
+#### Example `:`: `vcpkg.exe install SDL2:x64-windows`
 
 ### Installing bindings
-If we are in need of a binding between packages, these bindings are indiccated using the `[]`.
+If we are in need of a binding between packages, these bindings are indicated using the `[]`.
 It is just as easy as to run `vcpkg.exe install *package*[*binding*]`. I highly suggest you use the `--recurse` flag when running this command.
 
 #### Example: run `vcpkg.exe install SDL2[vulkan]`, which will install the binding for Vulkan functionality with SDL
