@@ -89,6 +89,7 @@ You can do this 2 ways, using `--triplet=` flag or the `:`.
 
 #### Example `--triplet`->  `vcpkg.exe install SDL2 --triplet=x64-windows`
 #### Example `:`        ->  `vcpkg.exe install SDL2:x64-windows`
+This will install the x64-windows version of SDL2.
 
 ### Installing bindings
 If we are in need of a binding between packages, these bindings are indicated using the `[]`.
